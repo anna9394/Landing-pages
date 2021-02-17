@@ -89,16 +89,41 @@
 
     <!-- hero-image -->
     <section class="section-outer section-hero-image">
-        <div class="section-inner">
-            hero-image
-        </div>
+        <ul class="slider-hero-image">
+            <li class="slider-hero-image__item" style="background-image: url('upload/hero-image.png');">
+                <div class="section-inner slider-hero-image__item-content">
+                    <h5>PLAN YOUR LIFE</h5>
+                    <h2>Increase your <span>productivity</span></h2>
+                    <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui
+                        laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+                    <div class="btn-ikon-play-wrapper"><a href="#">
+                            <i class="ikon-play">
+                                <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 3.29077C6.66667 3.68333 6.66667 4.66471 6 5.05727L1.5 7.70701C0.833333 8.09956 0 7.60887 0 6.82376V1.52428C0 0.739167 0.833333 0.248475 1.5 0.641029L6 3.29077Z"
+                                        fill="#5E81FF" />
+                                </svg>
+                            </i></a></div>
+                </div>
+            </li>
+        </ul>
+        <ul class="dots">
+            <li class="dots__item dots__item--active"></li>
+            <li class="dots__item"></li>
+            <li class="dots__item"></li>
+        </ul>
     </section>
     <!-- /hero-image -->
 
     <!-- customers -->
     <section class="section-outer section-customers">
         <div class="section-inner">
-            customers
+            <a href="#"><img src="img/bitbucket.svg"></a>
+            <a href="#"><img src="img/apple-watch.svg"></a>
+            <a href="#"><img src='img/facebook.svg'></a>
+            <a href="#"><img src="img/atlassian.svg"></a>
+            <a href="#"><img src="img/audi.svg"></a>
         </div>
     </section>
     <!-- /customers -->
@@ -106,7 +131,25 @@
     <!-- plan-and-manage -->
     <section class="section-outer section-plan-and-manage">
         <div class="section-inner">
-            plan and manage
+            <div class="section-plan-and-manage__content">
+                <img src="img/illustration.png" alt="" class="aside-image">
+                <h5>DESKTOP AND MOBILE APP</h5>
+                <h2><span>Plan</span> and <span>manage</span></h2>
+                <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
+                    insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex
+                    malis mollis oporteat. Eum an expetenda consequat.
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn btn--secondary">View video <svg width="7" height="8" viewBox="0 0 7 8"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 3.29077C6.66667 3.68333 6.66667 4.66471 6 5.05727L1.5 7.70701C0.833333 8.09956 0 7.60887 0 6.82376V1.52428C0 0.739167 0.833333 0.248475 1.5 0.641029L6 3.29077Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a href="#" class="btn btn--no-bg">See features</a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- /plan-and-manage -->
@@ -114,15 +157,68 @@
     <!-- features -->
     <section class="section-outer section-features">
         <div class="section-inner">
-            features
+            <h5 class="ta-c">ABOUT US</h5>
+            <h4 class="ta-c">Read about our app</h4>
+            <ul class="features-list">
+                <li class="features-list__item">
+                    <div class="features-list__item-icon">
+                        <img src="img/home.svg" alt="">
+                    </div>
+                    <div class="features-list__item-title">Overview</div>
+                    <div class="features-list__item-text">Brute laoreet efficiendi id his, ea illum nonumes luptatum
+                        pro.</div>
+                </li>
+                <li class="features-list__item">
+                    <div class="features-list__item-icon">
+                        <img src="img/files.svg" alt="">
+                    </div>
+                    <div class="features-list__item-title">Files</div>
+                    <div class="features-list__item-text">No vim nulla vitae intellegat. Ei enim error ius, solet
+                        atomorum conceptam ex has.</div>
+                </li>
+                <li class="features-list__item">
+                    <div class="features-list__item-icon">
+                        <img src="img/chat.svg" alt="">
+                    </div>
+                    <div class="features-list__item-title">Meeting chats</div>
+                    <div class="features-list__item-text">Vim ne tacimates neglegentur. Erat diceret omittam at est.
+                    </div>
+                </li>
+                <li class="features-list__item">
+                    <div class="features-list__item-icon">
+                        <img src="img/event.svg" alt="">
+                    </div>
+                    <div class="features-list__item-title">Save events</div>
+                    <div class="features-list__item-text">Nisl idque mel ea, nominati voluptatum.
+                    </div>
+                </li>
+            </ul>
+            <div class="btns">
+                <a href="#" class="btn btn--danger">Read more</a>
+                <span class="or-block">OR</span>
+                <a href="#" class="btn btn--primery">Get started</a>
+            </div>
         </div>
     </section>
     <!-- /features  -->
 
     <!-- stats -->
     <section class="section-outer section-stats">
-        <div class="section-inner">
-            stats
+        <div class="section-stats__left">
+            <div class="section-stats__icon">
+                <img src="img/clock.svg" alt="">
+            </div>
+            <div class="section-stats__number">89%</div>
+            <div class="section-stats__text">Customers who have increased their productivity
+            </div>
+        </div>
+        <div class="section-stats__right">
+            <div class="section-stats__icon">
+                <img src="img/people.svg" alt="">
+            </div>
+            <div class="section-stats__number">3123</div>
+            <div class="section-stats__text">Users who have used our application
+            </div>
         </div>
     </section>
     <!-- /stats -->
